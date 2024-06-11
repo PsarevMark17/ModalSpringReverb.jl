@@ -1,0 +1,10 @@
+name = "ModalSpringReverb"
+uuid = "26214cfc-ddb9-4f37-adc2-c285760bc5f0"
+authors = ["PsarevMark17"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
