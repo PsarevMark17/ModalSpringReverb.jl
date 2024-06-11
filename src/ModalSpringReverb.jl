@@ -195,7 +195,7 @@ function abcVectorsNondimension(
 
     i = findall(qi -> (qi < 0) && sqrt(-qi) / (2 * π * t0) <= 20000, q) # (Раздел 2.15)
 
-    println("Отрицательные собственные значения: ", length(findall(qi -> (qi > 0), q)))
+    println("Положительные собственные значения: ", length(findall(qi -> (qi > 0), q)))
     println("Моды вне слышимой части спектра: ", length(findall(qi -> (sqrt(abs(qi)) / (2 * π * t0) > 20000), q)))
 
     c = cVector(M, μ, φE, φP, Δs, d1, C1, q, P)[i] # (Раздел 2.15)
