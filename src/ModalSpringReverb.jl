@@ -57,7 +57,7 @@ function nondimensionalization(
     φE = deg2rad(φE) # ° → рад
     φP = deg2rad(φP) # ° → рад
 
-    fs *= t0 # (116) / (14) (Раздел 2.15)
+    fs *= t0 # (120)
 
     Δs = λ / M # (63)
     Δt = 1 / fs # (121)
