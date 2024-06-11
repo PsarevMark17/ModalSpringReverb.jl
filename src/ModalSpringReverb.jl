@@ -142,7 +142,7 @@ function cVector(
     hE = [sin(φE) * ζE; (μ * sin(φE) - cos(φE)) * C1 * ζE] # (92) → (101) и (102)
     hP = Δs * [-sin(φP) * ζP; (cos(φP) - μ * sin(φP)) * ζP] # (104) → (105) и (106)
 
-    cE = LinearAlgebra.inv(P) * hE # (110)
+    cE = inv(P) * hE # (110)
     cP = q .* (P') * hP # (114)
 
     c = cE .* cP # (117)
